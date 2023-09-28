@@ -1,11 +1,25 @@
 import React from "react"
-import { Typography } from "@mui/material"
+import {
+    Typography,
+    AppBar,
+    Card,
+    CardActions,
+    CardContent,
+    CardMedia,
+    CssBaseline,
+    Grid,
+    Toolbar,
+} from "@mui/material"
+import { PhotoCamera } from "@mui/icons-material"
+import Navbar from "./components/Navbar"
 
 function App() {
     return (
-        <div>
-            <Typography variant="h3">Hello World !</Typography>
-        </div>
+        <>
+            <CssBaseline>
+                <Navbar></Navbar>
+            </CssBaseline>
+        </>
     )
 }
 
